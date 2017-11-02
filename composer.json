@@ -1,0 +1,21 @@
+{
+    "name": "yiifloruit/yii2-redis-queue",
+    "description": "Redis Queue",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","redis","queue"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "AllenSun",
+            "email": "sunyujie@floruit.cn"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "queue\\redisQueue\\": ""
+        }
+    }
+}
